@@ -34,7 +34,10 @@ class MaterialWindow extends StatelessWidget {
             backgroundColor: Colors.blueAccent,
           ),
           body: Center(
-            child: MainWindow(),
+            child: Material(
+              child: MainWindow(),
+              color:Colors.deepPurple,
+            ),
           ),
         ));
   }
