@@ -14,7 +14,7 @@ class MainWindow extends StatelessWidget {
       ),
       decoration: BoxDecoration(
         shape:BoxShape.rectangle,
-        color: Colors.lightBlue,
+        color: Colors.purple[300],
         borderRadius: BorderRadius.all(Radius.zero),
       ),
       margin: EdgeInsets.all(100.0),
@@ -32,7 +32,7 @@ class MaterialWindow extends StatelessWidget {
           body: Center(
             child: Material(
               child: MainWindow(),
-              color:Colors.deepPurple,
+              color:Colors.pink[300],
             ),
           ),
         ));
