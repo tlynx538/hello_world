@@ -29,10 +29,6 @@ class MaterialWindow extends StatelessWidget {
     return MaterialApp(
         title: "First App",
         home: Scaffold(
-          appBar: AppBar(
-            title: Text("Hello World"),
-            backgroundColor: Colors.blueAccent,
-          ),
           body: Center(
             child: Material(
               child: MainWindow(),
