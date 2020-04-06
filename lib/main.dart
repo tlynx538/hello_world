@@ -15,10 +15,10 @@ class MainWindow extends StatelessWidget {
       decoration: BoxDecoration(
         shape:BoxShape.rectangle,
         color: Colors.lightBlue,
-        borderRadius: BorderRadius.all(Radius.circular(50.0)),
+        borderRadius: BorderRadius.all(Radius.zero),
       ),
-      margin: EdgeInsets.all(20.0),
-      padding: EdgeInsets.all(20.0),
+      margin: EdgeInsets.all(100.0),
+      padding: EdgeInsets.all(10.0),
     );
   }
 }
